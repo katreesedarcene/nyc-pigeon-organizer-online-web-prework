@@ -5,6 +5,8 @@ def nyc_pigeon_organizer(data)
     hash.each do |value, names|
       names.each do |name|
         new_hash[name] ||= pigeon_list
+        new_hash[name][key] ||= pigeon_list
+        pigeon_list << value.to_s
         
         
       end
