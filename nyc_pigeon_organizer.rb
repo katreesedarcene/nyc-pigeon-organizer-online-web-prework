@@ -4,4 +4,5 @@ def nyc_pigeon_organizer(data)
   data.each do |category, info|
     binding.pry
   # write your code here!
+  end
 end
